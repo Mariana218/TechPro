@@ -1,0 +1,50 @@
+:root{
+    --fuente-titulo: 'loto', sans-serif;
+    --fuente-parrafo: 'roboto', sans-serif;
+}
+
+*{
+    width: 100%;
+    height: 1000hv;
+    margin: 0%;
+    padding: 0%;
+    
+}
+/* seccion 1 */
+.seccion1{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    gap: 5rem;
+    background-color: rgba(0, 0, 0, 0.87);
+}
+.inicio1{
+    width: 50%;
+    height: 500hv;
+}
+.inicio2{
+    width: 60%;
+    color: #ffffff;
+}
+.img1{
+    width: 90%;
+    margin: 1px;
+}
+h1{ 
+    width: 80%;
+    height: 30vh;
+    display: flex;
+    align-items: center;
+    font-size: 100px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background: linear-gradient(to right, #1073BA, #00DA55 100%);
+    color: transparent;
+    background-clip: text;
+}
+p{
+    width: 80%;
+    display: flex;
+    align-items: center;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
