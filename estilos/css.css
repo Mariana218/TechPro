@@ -319,8 +319,8 @@ h3{
     width: 80%;
     font-size: 20px;
     text-align: initial;
-    position: absolute;
-    top: 25vh;
+    position: relative;
+    bottom: 5vh;
     left: 5%;
 }
 /* pie pag */
