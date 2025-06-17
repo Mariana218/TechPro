@@ -1,0 +1,335 @@
+*{
+    width: 100%;
+    margin: 0%;
+    padding: 0%;
+    
+}
+/* seccion 1 */
+.seccion1{
+    width: 100%;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.87);
+    position: relative;
+}
+.contenedor1{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+}
+.img-portada{
+    width: 55%;
+    position: relative;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.info-portada{
+    width: 55%;
+    color: #ffffff;
+}
+.img1{
+    width: 95%;
+    position: absolute;
+}
+h2{
+    font-size: 30px;
+    font-family: lotos, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: #ffffff;
+}
+h1{ 
+    width: 100%;
+    font-size: 100px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    background: linear-gradient(to right, #1073BA, #00DA55 100%);
+    color: transparent;
+    background-clip: text;
+}
+p{
+    width: 85%;
+    height: 18vh;
+    font-size: 18px;
+    display: flex;
+    align-items: center;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+span{
+    font-size: 60px;
+    font-weight: 700;
+}
+/* seccion2 */
+.seccion2{
+    width: 100%;
+    height: 65vh;
+    background-color: rgba(255, 255, 255, 0.87);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.contenedor2{
+    width: 90%;
+    height: 65vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.iconos{
+    width: 16%;
+    height: 18vh;
+}
+.div1{
+    width: 30%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+.div2{
+    width: 30%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+.div3{
+    width: 30%;
+    height: 100%;
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+h3{
+    height: 10vh;
+    font-size: 30px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color:  #1073BA;
+}
+/* seccion 3 */
+.seccion3{
+    width: 100%;
+    height: 80vh;
+    background-image: url(../multimedia/img-audifonos/imagen-mujer.jpg);
+    background-position: right;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+}
+.contenedor3{
+    width: 50%;
+    height: 80vh;
+    text-align: start;
+    color: #ffffff;
+    font-size: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #1073BA;
+    position: relative;
+}
+.contenido{
+    width: 80%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+}
+#subtitulo{
+    height: 35vh;
+    font-size: 40px;
+    position: absolute;
+    left: 5%;
+}
+.texto{
+    width: 80%;
+    height: 50vh;
+    font-size: 20px;
+}
+/* seccion 4 */
+#titulo{
+    width: 100%;
+    height: 40vh;
+    font-size: 380%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.seccion4{
+    width: 100%;
+    background-color: #ffffff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.contenedor4{
+    width: 80%;
+    height: 80vh;
+    display: flex;
+    flex-wrap: wrap;
+    position: relative; 
+    left: 5%;
+}
+.audifono1{
+    width: 60%;
+    height: 50vh;
+}
+.audifono2{
+    width: 90%;
+    height: 50vh;
+}
+.div4{
+    width: 70%;
+    height: 35vh;
+    gap: 5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(218, 218, 224);
+    border-radius: 30px;
+}
+.div5{
+    width: 60%;
+    height: 75vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #1073BA;
+    border-radius: 30px;
+    position: relative;
+    right: 7%;
+    bottom: 2vh;
+}
+.tipos{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: inherit;
+}
+#tipos{
+    width: 100%;
+    height: 20vh;
+    font-size: 35px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: #ffffff;
+}
+.precio{
+    height: 90vh;
+    font-size: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    right: 15%;
+    top: 5vh;
+}
+#precio{
+    height: 90vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 60px;
+    position: relative;
+    right: 10%;
+    top: 5vh;
+}
+/* seccion 5 */
+.seccion5{
+    width: 100%;
+    height: 80vh;
+    background-image: url(../multimedia/img-audifonos/newsletter.jpg);
+    background-position: start;
+    background-position-x: -50%;
+    background-repeat: no-repeat;
+}
+.contenedor5{
+    width: 50%;
+    height: 80vh;
+    text-align: center;
+    color: #000000;
+    font-size: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    background-color: #ffffff;
+    position: relative;
+    left: 50%;
+}
+.contenido{
+    width: 80%;
+    display: flex;
+    align-items: center;    
+    justify-content: center;
+}
+.formulario{
+    width: 90%;
+    height: 0vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    position: relative;
+    top: 18vh;
+    left: 0%;    
+}
+.contenido2{   
+    width: 90%;
+    height: 60vh;
+}
+.cajon1{
+    width: 100%;
+    height: 5vh;
+    font-size: 20px;
+
+}
+.cajon2{
+    width: 101%;
+    height: 8vh;
+    font-size: 20px;
+    font-weight: 600;
+    border-color: transparent;
+    background-color: #1073BA;
+    color: #ffffff;
+    
+}
+#subtitulo2{
+    width: 80%;
+    font-size: 40px;
+    color: black;
+    position: absolute;
+    top: 10%;
+    right: 24%;
+}
+.texto{
+    width: 80%;
+    font-size: 20px;
+    text-align: initial;
+    position: absolute;
+    top: 10vh;
+    left: 5%;
+}
+/* pie pag */
+#pie-pag{
+    width: 100%;
+    height: 20vh;
+    font-size: 20px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
